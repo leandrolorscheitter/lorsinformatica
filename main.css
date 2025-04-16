@@ -1,11 +1,11 @@
-/* Reset básico para evitar problemas de margens e espaçamentos padrões */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Estilo para o cabeçalho */
+  
   header {
     background-color: #333;
     color: white;
@@ -41,7 +41,7 @@
     text-decoration: underline;
   }
   
-  /* Estilo para o conteúdo da seção */
+ 
   section {
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -68,7 +68,7 @@
     max-width: 500px;
   }
   
-  /* Layout das imagens de serviço */
+ 
   .services {
     display: flex;
     flex-direction: column;
@@ -94,8 +94,8 @@
     color: #333;
     max-width: 250px;
   }
+
   
-  /* Estilo para as imagens de redes sociais */
   ul.social-media {
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@
     transform: scale(1.1);
   }
   
-  /* Rodapé */
+  
   footer {
     background-color: #333;
     color: white;
