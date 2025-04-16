@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LorsInformática</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>LorsInformática</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre a loja</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="logo-container">
+            <img src="./imagens/logo.PNG" alt="Logo da LorsInformática" class="logo-img" />
+            <p class="about-text">Assistência técnica, montagem e manutenção de computadores e notebooks.</p>
+        </div>
+
+        <div class="services">
+            <div class="service-item">
+                <img src="imagens/tecnico.jpg" alt="Técnico realizando manutenção" class="service-img">
+                <p>Técnico qualificado para manutenção e reparo de equipamentos</p>
+            </div>
+            <div class="service-item">
+                <img src="imagens/instalação.png" alt="Instalação de software" class="service-img">
+                <p>Instalação de software e otimização de sistemas</p>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-text">
+                <h3>Venha até nós</h3>
+                <p>Rua JavaScript nº 124, Vila HTML Paranaíta-MT</p>
+            </div>
+            
+            <ul class="social-media">
+                <li><img src="imagens/instagram.png" alt="Instagram logo" class="social-img"></li>
+                <li><img src="imagens/youtube.png" alt="YouTube logo" class="social-img"></li>
+            </ul>
+
+            <!-- Formulário de contato -->
+            <form class="contact-form">
+                <h3>Entre em contato</h3>
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Seu e-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Seu telefone (opcional):</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="mensagem">Sua Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
